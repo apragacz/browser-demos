@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="linear-gradient"
+                x1="0" y1="0"
+                x2="0" y2="300"
+                gradientUnits="userSpaceOnUse" gradientTransform="matrix(1,0,0,1,0,0)">
+            <stop stop-color="#FF6666" offset="25%" />
+            <stop stop-color="#FF6666" offset="37%" />
+            <stop stop-color="#FFAA66" offset="37%" />
+            <stop stop-color="#FFAA66" offset="50%" />
+            <stop stop-color="#FFFF66" offset="50%" />
+            <stop stop-color="#FFFF66" offset="62%" />
+            <stop stop-color="#66FF66" offset="62%" />
+            <stop stop-color="#66FF66" offset="75%" />
+        </linearGradient>
+        <path id="text-path" d="M100,150 Q400,60 700,150" />
+    </defs>
+    <rect x="0" y="0" width="800" height="300" fill="#EEEEEE" />
+    <path d="M0,111 L800,111" stroke="#DDDDDD" />
+    <path d="M0,150 L800,150" stroke="#DDDDDD" />
+    <path d="M0,186 L800,186" stroke="#DDDDDD" />
+    <text font-size="150px">
+        <textPath xlink:href="#text-path">
+            <tspan fill="url(#linear-gradient)" dy="50">H</tspan>
+            <tspan fill="url(#linear-gradient)">e</tspan>
+            <tspan fill="url(#linear-gradient)">l</tspan>
+            <tspan fill="url(#linear-gradient)">l</tspan>
+            <tspan fill="url(#linear-gradient)">o</tspan>
+        </textPath>
+    </text>
+</svg>
