@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SVG Text Gradient examples</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Andrzej Pragacz">
+    </head>
+    <body>
+        <h1>SVG Text Gradient examples</h1>
+        <p>
+            Here are some examples of using SVG linear gradient over SVG tspan
+            (or text - in the last example).
+            We are using gradientUnits="userSpaceOnUse" because setting to
+            "objectBoundingBox" gives more chaotic results (the "object"
+            bounding box sometimes seems to be the text bbox, not tspan bbox).
+            We assume that the example works (does not fail) iff the
+            sharp gradient transitions are aligned with the dark gray
+            horizontal paths under the text.
+        </p>
+        <h2>Working examples</h2>
+        <p>
+            These should work on each browser.
+        </p>
+        <ol>
+            <li><a href="horizontal-path.svg">
+                Text on horizontal line path
+            </a></li>
+        </ol>
+        <h2>Failing examples</h2>
+        <p>
+            These examples will fail on webkit based browsers
+            (like chromium 25.0, chrome and safari).
+            They will not fail on Opera 11.10 or Firefox 21.0.
+        </p>
+        <ol>
+            <li><a href="horizontal-path-shifted.svg">
+                Text on horizontal line path, shifted vertically
+            </a></li>
+            <li><a href="bent-path-shifted.svg">
+                Text on nonlinear bezier path, shifted
+            </a></li>
+            <li><a href="bent-path-shifted-text.svg">
+                Text on nonlinear bezier path, shifted, gradient is applied on text, not tspans
+            </a></li>
+        </ol>
+    </body>
+</html>
