@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SVG Arabic Text examples</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Andrzej Pragacz">
+    </head>
+    <body>
+        <h1>SVG Arabic Text examples</h1>
+        <p>
+            Here are some examples of using arabic with SVG text (textpath)
+            elements.
+        </p>
+        <h2>Working examples</h2>
+        <p>
+            These should work on Chrome &amp; Firefox browser.
+        </p>
+        <ol>
+            <li><a href="text.svg">
+                Text, the characters should display as 'connected'.
+            </a></li>
+            <li><a href="text-tspan.svg">
+                Text, tspanned. The characters should display as 'separated'.
+            </a></li>
+            <li><a href="text-tspan-zwj.svg">
+                Text, tspanned with zero-width joiner.
+                The characters should display as 'connected'
+            </a></li>
+        </ol>
+        <h2>Failing examples</h2>
+        <p>
+            These examples will fail on webkit based browsers
+            (like chromium 35.0, chrome and safari) - the arabic characters
+            will be rendered as 'separated' instead of 'connected'.
+            They will not fail on Firefox 25.0 (in version 29 text is not bent,
+            but that is already reported bug).
+        </p>
+        <ol>
+            <li><a href="textpath-horizontal.svg">
+                Text on horizontal line path
+            </a></li>
+            <li><a href="textpath-bent.svg">
+                Text on nonlinear bezier path
+            </a></li>
+            <li><a href="textpath-tspan-horizontal-zwj.svg">
+                Text on horizontal line path, tspanned with zero-width joiner
+            </a></li>
+            <li><a href="textpath-tspan-bent-zwj.svg">
+                Text on nonlinear bezier path, tspanned with zero-width joiner
+            </a></li>
+        </ol>
+    </body>
+</html>
