@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        direction="rtl"
+        unicode-bidi="bidi-override"
+        writing-mode="rl">
+    <defs>
+    </defs>
+    <rect x="0" y="0" width="800" height="300" fill="#EEEEEE" />
+    <text font-size="150px" x="800" y="150" fill="#000000">
+        <tspan>ا</tspan>
+        <tspan>ل</tspan>
+        <tspan>م</tspan>
+        <tspan>ي</tspan>
+        <tspan>ا</tspan>
+        <tspan>ه</tspan>
+    </text>
+</svg>
