@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        direction="rtl"
+        unicode-bidi="bidi-override"
+        writing-mode="rl">
+    <defs>
+        <path id="text-path" d="M100,150 Q400,150 700,150" />
+    </defs>
+    <rect x="0" y="0" width="800" height="300" fill="#EEEEEE" />
+    <text font-size="150px" fill="#000000">
+        <textPath xlink:href="#text-path" startOffset="100%">
+            <tspan>ا&#8205;</tspan>
+            <tspan>&#8205;ل&#8205;</tspan>
+            <tspan>&#8205;م&#8205;</tspan>
+            <tspan>&#8205;ي&#8205;</tspan>
+            <tspan>&#8205;ا&#8205;</tspan>
+            <tspan>&#8205;ه</tspan>
+        </textPath>
+    </text>
+</svg>

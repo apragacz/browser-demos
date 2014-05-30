@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        direction="rtl"
+        unicode-bidi="bidi-override"
+        writing-mode="rl">
+    <defs>
+        <path id="text-path" d="M100,150 Q400,60 700,150" />
+    </defs>
+    <rect x="0" y="0" width="800" height="300" fill="#EEEEEE" />
+    <text font-size="150px" fill="#000000">
+        <textPath xlink:href="#text-path" startOffset="100%">
+            المياه
+        </textPath>
+    </text>
+</svg>
